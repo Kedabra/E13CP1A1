@@ -1,0 +1,10 @@
+<%= form_with model: @sales do |f|%>
+  <%= f.text_area :detail%>
+  <%= f.text_field :category%>
+  <%= f.text_field :value%>
+  <%= f.text_field :discount%>
+  <%= check_box_tag(:tax) %>
+  <%= f.text_field :discount%>
+
+
+<% end %>
